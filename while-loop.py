@@ -12,5 +12,5 @@ while isGuessRight != True:
         print("You guessed {}. That is correct! You win!".format(guess))
         isGuessRight = True
     else:
-        print("You guessed {}. Sorry, that isn’t it. Try again.".format(guess))
+        print("You guessed {}. Sorry, that isn’t it. Try again.The correct guess was {}".format(guess,number))
 
